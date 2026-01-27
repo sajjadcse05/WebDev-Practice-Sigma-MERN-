@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+
+
+        /* selector */
+    .container{
+        text-align: center;
+        color: blue;
+    }
+
+
+/* ID selector */
+    #go{
+        background-color: lightgray;
+    }
+
+#no{
+    color: green;
+}
+
+
+/* Child-selector */
+div>p{
+    font-size: 18px;
+    background-color: maroon;
+    color: white;
+}
+
+
+/* Class Selector */
+.asc{
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+
+/* Universal Selector */
+* {
+    background-color: yellow;
+}
+
+
+/* Pseudo elector */
+
+a:visited {
+    color: purple;
+}
+
+
+a:link {
+    color: green
+}
+
+a:active {
+    background-color:  red;
+}
+
+a:hover {
+    font-size: 20px;    
+    color: orange;
+}
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h1 id="go">CSS Selectors Practice Page</h1>
+        <p>This page is dedicated to practicing various CSS selectors including class, id, attribute, pseudo-class, and pseudo-element selectors.</p>
+        
+    </div>
+
+        <div>
+            <h1 id="no">
+                Welcome to the Selectors Practice Section
+            </h1>
+        </div>
+
+
+        <div>
+            <article>
+                <h2 class="asc">
+                    This is an article heading styled with a class selector.
+                </h2>
+                <p>
+                    This paragraph is part of the article and is styled using the class selector in CSS.
+                </p>
+            </article>
+        </div>
+
+
+<div>
+            <p id="asc">
+                This paragraph is a direct child of the div element. It is styled using the child selector in CSS.
+            </p>
+    </div>
+
+      
+            <a href="https://www.google.com/">Visited Link Example</a>
+<a href="https://www.facebook.com/">Facebook Link Example</a>
+
+      
+</body>
+</html>
